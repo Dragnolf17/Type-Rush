@@ -43,5 +43,4 @@ class GameScene: SKScene {
         }
         return try? Data(contentsOf: url)
     }
-    
 }
