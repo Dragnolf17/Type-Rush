@@ -16,6 +16,7 @@
 		25A3BBE92FADD60F00972F43 /* Type_RushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3BBE82FADD60F00972F43 /* Type_RushTests.swift */; };
 		25A3BBF32FADD60F00972F43 /* Type_RushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3BBF22FADD60F00972F43 /* Type_RushUITests.swift */; };
 		25A3BBF52FADD60F00972F43 /* Type_RushUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3BBF42FADD60F00972F43 /* Type_RushUITestsLaunchTests.swift */; };
+		25A3BC022FADDE6A00972F43 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3BC012FADDE6A00972F43 /* TitleScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		25A3BBEE2FADD60F00972F43 /* Type RushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Type RushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A3BBF22FADD60F00972F43 /* Type_RushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type_RushUITests.swift; sourceTree = "<group>"; };
 		25A3BBF42FADD60F00972F43 /* Type_RushUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type_RushUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25A3BC012FADDE6A00972F43 /* TitleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				25A3BBD82FADD60D00972F43 /* Main.storyboard */,
 				25A3BBDB2FADD60E00972F43 /* Assets.xcassets */,
 				25A3BBDD2FADD60E00972F43 /* LaunchScreen.storyboard */,
+				25A3BC012FADDE6A00972F43 /* TitleScene.swift */,
 			);
 			path = "Type Rush";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				25A3BBD52FADD60D00972F43 /* GameScene.swift in Sources */,
 				25A3BBD72FADD60D00972F43 /* GameViewController.swift in Sources */,
 				25A3BBCF2FADD60D00972F43 /* AppDelegate.swift in Sources */,
+				25A3BC022FADDE6A00972F43 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
