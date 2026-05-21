@@ -1,15 +1,12 @@
-//
-//  GameScene.swift
-//  Type Rush
-//
-//  Created by Aluno a27942 Teste on 08/05/2026.
-//
-
 import SpriteKit
 import UIKit
 import GameplayKit
 
 class GameScene: SKScene {
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     private var timeRemaining : Int = 30
     private var timer: Timer?
@@ -18,9 +15,16 @@ class GameScene: SKScene {
     private var submitButton : SKSpriteNode!
     private var returnButton : SKSpriteNode!
     private var inputBoxNode : SKShapeNode!
+    private var trWord: [TRWord?]
     
     override func didMove(to view: SKView) {
         backgroundColor = .darkGray
+        
+        if let words = JSONReading.loadWords(from: "Words") {
+            self.trWord = words
+        } else {
+            print("Failed to load word data")
+        }
         
         timerLabel = SKLabelNode(text: "\(timeRemaining)")
         timerLabel.fontName = "Helvetica-Bold"
@@ -151,3 +155,6 @@ extension GameScene: UITextFieldDelegate {
         return true
     }
 }
+
+// Lógica do jogo
+
