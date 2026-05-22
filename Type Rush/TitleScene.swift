@@ -38,10 +38,12 @@ class TitleScene: SKScene {
         let touchedNode = atPoint(location)
         
         if touchedNode.name == "startButton" || touchedNode.parent?.name == "startButton" {
-            let gameScene = GameScene(size: size)
-            gameScene.scaleMode = scaleMode
+            guard let view = self.view else { return }
+            
+            let gameScene = GameScene(size: view.bounds.size)
+            gameScene.scaleMode = SKSceneScaleMode.aspectFill
             let transition = SKTransition.fade(withDuration: 0.5)
-            view?.presentScene(gameScene, transition: transition)
+            view.presentScene(gameScene, transition: transition)
         }
     }
 }
