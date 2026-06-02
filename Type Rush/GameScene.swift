@@ -129,7 +129,7 @@ class GameScene: SKScene {
             if self.timeRemaining <= 0 {
                 self.timer?.invalidate()
                 self.timer = nil
-                self.returnToTitle()
+                self.gameOver()
             }
         }
     }
@@ -140,6 +140,14 @@ class GameScene: SKScene {
         titleScene.scaleMode = scaleMode
         let transition = SKTransition.fade(withDuration: 0.5)
         view?.presentScene(titleScene, transition: transition)
+    }
+
+    private func gameOver() {
+        inputField?.resignFirstResponder()
+        let endScene = EndGameScene(size: size, score: score)
+        endScene.scaleMode = scaleMode
+        let transition = SKTransition.fade(withDuration: 0.5)
+        view?.presentScene(endScene, transition: transition)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -242,7 +250,7 @@ class GameScene: SKScene {
         if timeRemaining <= 0 {
             timer?.invalidate()
             timer = nil
-            returnToTitle()
+            gameOver()
         }
     }
 }

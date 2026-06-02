@@ -20,6 +20,8 @@
 		B3FCD2BF2FBF9678004DCB81 /* Words.json in Resources */ = {isa = PBXBuildFile; fileRef = B3FCD2BE2FBF9663004DCB81 /* Words.json */; };
 		B3FCD2C12FBF99A2004DCB81 /* JSONReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2C02FBF9999004DCB81 /* JSONReading.swift */; };
 		B3FCD2C32FBF9B8E004DCB81 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2C22FBF9B86004DCB81 /* GameData.swift */; };
+		B3FCD2D12FBF9B8E004DCB81 /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2D02FBF9B86004DCB81 /* EndGameScene.swift */; };
+		B3FCD2D32FBF9B8E004DCB81 /* ScoreStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2D22FBF9B86004DCB81 /* ScoreStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		B3FCD2BE2FBF9663004DCB81 /* Words.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Words.json; sourceTree = "<group>"; };
 		B3FCD2C02FBF9999004DCB81 /* JSONReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReading.swift; sourceTree = "<group>"; };
 		B3FCD2C22FBF9B86004DCB81 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		B3FCD2D02FBF9B86004DCB81 /* EndGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
+		B3FCD2D22FBF9B86004DCB81 /* ScoreStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				25A3BBDB2FADD60E00972F43 /* Assets.xcassets */,
 				25A3BBDD2FADD60E00972F43 /* LaunchScreen.storyboard */,
 				25A3BC012FADDE6A00972F43 /* TitleScene.swift */,
+				B3FCD2D02FBF9B86004DCB81 /* EndGameScene.swift */,
+				B3FCD2D22FBF9B86004DCB81 /* ScoreStore.swift */,
 			);
 			path = "Type Rush";
 			sourceTree = "<group>";
@@ -275,6 +281,8 @@
 				25A3BBCF2FADD60D00972F43 /* AppDelegate.swift in Sources */,
 				25A3BC022FADDE6A00972F43 /* TitleScene.swift in Sources */,
 				B3FCD2C12FBF99A2004DCB81 /* JSONReading.swift in Sources */,
+				B3FCD2D12FBF9B8E004DCB81 /* EndGameScene.swift in Sources */,
+				B3FCD2D32FBF9B8E004DCB81 /* ScoreStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
