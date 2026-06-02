@@ -84,6 +84,7 @@ class GameScene: SKScene {
     private func setupTextField() {
             inputField = UITextField(frame: CGRect(x: 0, y: 0, width: 290, height: 40))
             inputField.backgroundColor = .white
+            inputField.textColor = .black
             inputField.layer.cornerRadius = 8
             inputField.placeholder = "Type your answer..."
             inputField.font = UIFont.systemFont(ofSize: 18, weight: .medium)
