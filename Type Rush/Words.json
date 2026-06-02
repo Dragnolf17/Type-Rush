@@ -14,5 +14,285 @@
     {
         "cWord" : "laranja",
         "anonWord" : "la--nj-"
+    },
+    {
+        "cWord" : "cachorro",
+        "anonWord" : "ca--orro"
+    },
+    {
+        "cWord" : "cavalo",
+        "anonWord" : "ca--lo"
+    },
+    {
+        "cWord" : "coelho",
+        "anonWord" : "co--ho"
+    },
+    {
+        "cWord" : "macaco",
+        "anonWord" : "ma--co"
+    },
+    {
+        "cWord" : "cobra",
+        "anonWord" : "co--a"
+    },
+    {
+        "cWord" : "peixe",
+        "anonWord" : "pe--e"
+    },
+    {
+        "cWord" : "galinha",
+        "anonWord" : "ga--nha"
+    },
+    {
+        "cWord" : "pato",
+        "anonWord" : "p-to"
+    },
+    {
+        "cWord" : "rato",
+        "anonWord" : "r-to"
+    },
+    {
+        "cWord" : "urso",
+        "anonWord" : "ur-o"
+    },
+    {
+        "cWord" : "tigre",
+        "anonWord" : "ti--e"
+    },
+    {
+        "cWord" : "porco",
+        "anonWord" : "po-co"
+    },
+    {
+        "cWord" : "vaca",
+        "anonWord" : "v-ca"
+    },
+    {
+        "cWord" : "cabra",
+        "anonWord" : "ca-ra"
+    },
+    {
+        "cWord" : "formiga",
+        "anonWord" : "fo--iga"
+    },
+    {
+        "cWord" : "aranha",
+        "anonWord" : "ar--ha"
+    },
+    {
+        "cWord" : "abelha",
+        "anonWord" : "ab--ha"
+    },
+    {
+        "cWord" : "borboleta",
+        "anonWord" : "bor--leta"
+    },
+    {
+        "cWord" : "mosca",
+        "anonWord" : "mo-ca"
+    },
+    {
+        "cWord" : "coruja",
+        "anonWord" : "co--ja"
+    },
+    {
+        "cWord" : "baleia",
+        "anonWord" : "ba--ia"
+    },
+    {
+        "cWord" : "golfinho",
+        "anonWord" : "gol--nho"
+    },
+    {
+        "cWord" : "uva",
+        "anonWord" : "u-a"
+    },
+    {
+        "cWord" : "morango",
+        "anonWord" : "mo--ngo"
+    },
+    {
+        "cWord" : "pera",
+        "anonWord" : "p-ra"
+    },
+    {
+        "cWord" : "manga",
+        "anonWord" : "ma-ga"
+    },
+    {
+        "cWord" : "melancia",
+        "anonWord" : "mel--cia"
+    },
+    {
+        "cWord" : "cereja",
+        "anonWord" : "ce--ja"
+    },
+    {
+        "cWord" : "abacaxi",
+        "anonWord" : "ab--axi"
+    },
+    {
+        "cWord" : "cenoura",
+        "anonWord" : "ce--ura"
+    },
+    {
+        "cWord" : "batata",
+        "anonWord" : "ba--ta"
+    },
+    {
+        "cWord" : "tomate",
+        "anonWord" : "to--te"
+    },
+    {
+        "cWord" : "alface",
+        "anonWord" : "al--ce"
+    },
+    {
+        "cWord" : "mesa",
+        "anonWord" : "m-sa"
+    },
+    {
+        "cWord" : "cadeira",
+        "anonWord" : "ca--ira"
+    },
+    {
+        "cWord" : "porta",
+        "anonWord" : "po-ta"
+    },
+    {
+        "cWord" : "janela",
+        "anonWord" : "ja--la"
+    },
+    {
+        "cWord" : "livro",
+        "anonWord" : "li-ro"
+    },
+    {
+        "cWord" : "caneta",
+        "anonWord" : "ca--ta"
+    },
+    {
+        "cWord" : "papel",
+        "anonWord" : "pa-el"
+    },
+    {
+        "cWord" : "caderno",
+        "anonWord" : "ca--rno"
+    },
+    {
+        "cWord" : "mochila",
+        "anonWord" : "mo--ila"
+    },
+    {
+        "cWord" : "telefone",
+        "anonWord" : "tel--one"
+    },
+    {
+        "cWord" : "computador",
+        "anonWord" : "comp--ador"
+    },
+    {
+        "cWord" : "teclado",
+        "anonWord" : "te--ado"
+    },
+    {
+        "cWord" : "escola",
+        "anonWord" : "es--la"
+    },
+    {
+        "cWord" : "amigo",
+        "anonWord" : "am-go"
+    },
+    {
+        "cWord" : "casa",
+        "anonWord" : "c-sa"
+    },
+    {
+        "cWord" : "cidade",
+        "anonWord" : "ci--de"
+    },
+    {
+        "cWord" : "carro",
+        "anonWord" : "ca-ro"
+    },
+    {
+        "cWord" : "bicicleta",
+        "anonWord" : "bic--leta"
+    },
+    {
+        "cWord" : "estrada",
+        "anonWord" : "es--ada"
+    },
+    {
+        "cWord" : "ponte",
+        "anonWord" : "po-te"
+    },
+    {
+        "cWord" : "barco",
+        "anonWord" : "ba-co"
+    },
+    {
+        "cWord" : "trem",
+        "anonWord" : "tr-m"
+    },
+    {
+        "cWord" : "flor",
+        "anonWord" : "fl-r"
+    },
+    {
+        "cWord" : "rio",
+        "anonWord" : "r-o"
+    },
+    {
+        "cWord" : "praia",
+        "anonWord" : "pr--a"
+    },
+    {
+        "cWord" : "montanha",
+        "anonWord" : "mon--nha"
+    },
+    {
+        "cWord" : "floresta",
+        "anonWord" : "flo--sta"
+    },
+    {
+        "cWord" : "estrela",
+        "anonWord" : "es--ela"
+    },
+    {
+        "cWord" : "chuva",
+        "anonWord" : "ch-va"
+    },
+    {
+        "cWord" : "vento",
+        "anonWord" : "ve-to"
+    },
+    {
+        "cWord" : "fogo",
+        "anonWord" : "f-go"
+    },
+    {
+        "cWord" : "terra",
+        "anonWord" : "te-ra"
+    },
+    {
+        "cWord" : "pedra",
+        "anonWord" : "pe-ra"
+    },
+    {
+        "cWord" : "folha",
+        "anonWord" : "fo-ha"
+    },
+    {
+        "cWord" : "nuvem",
+        "anonWord" : "nu-em"
+    },
+    {
+        "cWord" : "lago",
+        "anonWord" : "l-go"
+    },
+    {
+        "cWord" : "campo",
+        "anonWord" : "ca-po"
     }
 ]
